@@ -2,7 +2,7 @@
 
 # Repository Navigation Guide
 
-This repository holds various web development projects made with the Angular framework, because of that, it is necessary to understand how to navigate these folders.
+This repository holds various web development projects made with the Angular framework, here is an explanation of each folder inside this main location.
 
 ## First Project: Series Information Simple Webpage
 
