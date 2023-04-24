@@ -2,26 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
 
-## Development server
+## Objective
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The objective for this project was to put into practice the implementation of the Angular framework in a web develpment project. In this case, in a series information simple webpage project.
 
-## Code scaffolding
+## Results for this first project
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The results obtained after developing this project with the Angular framework were the following:
 
-## Build
+![Results for Series Info Website with Angular](https://github.com/fai-aher/Angular-Practice-Projects/blob/main/media/results_images/angularResult1.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
