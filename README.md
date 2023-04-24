@@ -1,4 +1,4 @@
-# Angular-Practice-Projects
+# Angular Framework Practical Web-Dev Projects
 
 # Repository Navigation Guide
 
