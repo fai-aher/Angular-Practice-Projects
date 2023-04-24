@@ -1,0 +1,117 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<style>
+  table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    min-width: 150px;
+    text-align: center;
+  }
+
+  thead tr {
+    background-color: #f6e5e5;
+  }
+
+  .margen {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+  }
+
+  .margen2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
+  .img-fluid {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .row-header {
+    background-color: #F2F2F2;
+  }
+
+  .tv-series-header {
+    background-color: #FFD300;
+    color: #333; 
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #Series td a {
+    color: rgb(8, 91, 119);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .avgSeasons {
+    font-size: 18px;
+    background-color: #ddd;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
+  .legend {
+    font-size: 12px;
+    background-color: #ddd;
+    vertical-align: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .card-title {
+    font-weight: bold;
+  }
+
+  
+</style>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Series Information</title>
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12">
+                <h1 class="tv-series-header">TV Series</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class = "col-7 text-center">
+                  <app-listar-series></app-listar-series>
+
+        <script type="module" src="./scripts/Serie.js" ></script>
+        <script type="module" src="./scripts/data.js" ></script>
+        <script type="module" src="./scripts/main.js"></script>
+
+        <p class="legend">This page was developed by @fai-aher (GitHub) <a href="https://github.com/fai-aher">Link to my GitHub profile</a>, <br> April 2023</p>

@@ -1,0 +1,22 @@
+<div class="container">
+    <h2>Listado de Series</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Canal</th>
+          <th>Temporadas</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let serie of series">
+          <td>{{serie.id}}</td>
+          <td>{{serie.name}}</td>
+          <td>{{serie.channel}}</td>
+          <td>{{serie.seasons}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
