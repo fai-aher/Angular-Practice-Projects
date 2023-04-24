@@ -10,13 +10,23 @@ import { SeriesService } from '../series.service';
 })
 export class ListarSeriesComponent implements OnInit {
   series: Serie[] = [];
+  averageSeasons: number = 0;
 
-  constructor(private seriesService: SeriesService) { }
+  constructor(private seriesService: SeriesService) {}
 
   ngOnInit(): void {
     this.seriesService.getSeries().subscribe((data: Serie[]) => {
-      console.log('Data:', data);
       this.series = data;
+      this.calculateAverageSeasons();
     });
+  }
+
+  // Function to calculate average seasons.
+  calculateAverageSeasons(): void {
+    let totalSeasons = 0;
+    for (const serie of this.series) {
+      totalSeasons += serie.seasons;
+    }
+    this.averageSeasons = totalSeasons / this.series.length;
   }
 }

@@ -1,12 +1,12 @@
 <div class="container">
-    <h2>Listado de Series</h2>
+    <h2>Series List</h2>
     <table class="table table-striped">
       <thead>
         <tr>
           <th>ID</th>
-          <th>Nombre</th>
-          <th>Canal</th>
-          <th>Temporadas</th>
+          <th>Name</th>
+          <th>Channel</th>
+          <th>Seasons</th>
         </tr>
       </thead>
       <tbody>
@@ -19,4 +19,7 @@
       </tbody>
     </table>
   </div>
+
+  <p class="mt-4">The average seasons number for all series is: {{ averageSeasons | number:'1.2-2' }}</p>
+
   
