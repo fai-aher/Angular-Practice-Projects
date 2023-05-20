@@ -41,6 +41,9 @@
 
 .clicker {
 
-  color: rgb(115, 92, 10);
+  color: rgb(218, 124, 0);
+}
 
+.clicker-text {
+  font-weight: bold;
 }
