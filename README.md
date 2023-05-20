@@ -24,5 +24,6 @@ This second project is about a webpage which displays information of music bands
 
 This is a pre-visualization of the results achieved:
 
-<img src="https://github.com/fai-aher/Angular-Practice-Projects/blob/main/media/results_images/angularResult1.png" alt="Results in Series Info Project" width="600px" height="300px" />
+<img src="https://github.com/fai-aher/Angular-Practice-Projects/blob/main/media/results_images/musicBands1.png" alt="Results 1" width="600px" height="300px" />
+<p class="caption">Results 1</p>
 
