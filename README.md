@@ -26,7 +26,5 @@ This is a pre-visualization of the results achieved:
 
 <div style="position: relative; text-align: center;">
   <img src="https://github.com/fai-aher/Angular-Practice-Projects/blob/main/media/results_images/musicBands1.png" alt="Results 1" width="600px" height="300px" />
-  <p style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-style: italic; font-weight: bold;">
-    Results image #1
-  </p>
+  <p><strong><em>         Results image #1</em></strong></p>
 </div>
